@@ -1,0 +1,12 @@
+{
+  "name": "hapijs-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app using the Hapi.js framework with two routes.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.0.3"
+  }
+}

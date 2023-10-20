@@ -1,0 +1,16 @@
+apps:
+  - script: server.js
+    name: 'test'
+    node_args: '--max-http-header-size=40000'
+    max_memory_restart: '600M'
+    wait_ready: true
+    listen_timeout: 4000
+    kill_timeout: 600000
+    kill_retry_time: 1000
+    exec_mode: cluster
+    restart_delay: 500
+    max_restart: 400
+    instances: 2
+    watch: false
+    out_file: '/dev/null'
+    error_file: '/dev/null'
