@@ -2,8 +2,7 @@ const Hapi = require('@hapi/hapi');
 
 const init = async () => {
     const server = Hapi.Server({
-        port: 3003,
-        host: 'localhost'
+        port: 3000
     });
 
     // Route that responds with "OK"
