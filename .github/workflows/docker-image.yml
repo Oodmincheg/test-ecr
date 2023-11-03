@@ -1,4 +1,4 @@
-name: upload image to ECR
+- name: upload image to ECR
   uses: appleboy/docker-ecr-action@master
   with:
     access_key: ${{secrets.ACCESS_KEY}}
