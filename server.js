@@ -5,7 +5,7 @@ const init = async () => {
         port: 3000
     });
 
-    // Route that responds with "OK" hhh
+    // Route that responds with "OK"
     server.route({
         method: 'GET',
         path: '/status',
