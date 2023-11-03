@@ -1,3 +1,4 @@
+---
 - name: upload image to ECR
   uses: appleboy/docker-ecr-action@master
   with:
