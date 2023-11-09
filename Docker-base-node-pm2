@@ -8,8 +8,6 @@ ARG VERSION=${PM2_CONSUL_VERSION}
 LABEL build_id="${BUILD_ID}" \
       version="${VERSION}" \
       pm2-consul_version="${PM2_CONSUL_VERSION}" \
-      description="airSlate Inc. base nodejs Docker Image" \
-      maintainer="Anton Trifonov <rin@pdffiller.team>"
 
 RUN apk --no-cache add \
       vim && \
